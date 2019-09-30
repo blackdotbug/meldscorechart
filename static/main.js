@@ -25,7 +25,7 @@ function createGraph() {
 
     var margin = {
       top: 20,
-      right: 50,
+      right: 80,
       bottom: 50,
       left: 30
     };
