@@ -1,0 +1,29 @@
+/* custom css */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.axis {
+  font: 14px sans-serif;
+}
+  
+.line {
+  fill: none;
+  stroke: orange;
+  stroke-width: 2px;
+}
+
+.tooltip {
+    position: absolute;
+    width: auto;
+    height: 13em;
+    padding: 1em;
+    font: 12px sans-serif;
+    text-align: center;
+    color: #222;
+    background: rgb(194, 194, 194);
+    border: 0;
+    border-radius: 10px;
+  }
