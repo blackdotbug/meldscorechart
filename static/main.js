@@ -40,7 +40,7 @@ function createGraph() {
     var chartGroup = svg.append("g")
           .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    var parseTime = d3.timeParse("%-m/%-d/%y");
+    var parseTime = d3.timeParse("%-m/%-d/%Y %H:%M:%S");
   
     d3.json('/data').then(function(data){
         // version 1
